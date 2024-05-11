@@ -35,5 +35,8 @@ semanage port -a -t http_port_t -p tcp 82
 restorecon -Rv /var/www/html
 semanage port -l | grep http
 ```
+### OUTPUT:
+![image](https://github.com/SamyukthaSreenivasan/Configuration-of-SELinux/assets/119475703/a066fe5e-ec5f-40f9-a472-96d164e23a7f)
+
 ## RESULT:
 Thus the program to configure SELinux is been successfully implemented.
